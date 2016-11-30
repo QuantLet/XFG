@@ -1,4 +1,4 @@
-Name of QuantLet: VaRcorrDGF2
+Name of QuantLet: VaRcorrfDGF2
 
 Published in:		Applied Quantitative Finance
 
