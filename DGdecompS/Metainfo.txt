@@ -10,7 +10,7 @@ See also:		VaRDGdecomp, VaRDGdecompG
 
 Author:			Awdesch Melzer
 
-Submitted:		
+Submitted:		04.10.2016
 
 Usage:			'B = DGdecompS(Sigma)'
 
