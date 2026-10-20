@@ -5,8 +5,6 @@
 </div>
 
 ```
-﻿Name of QuantLet: XFGyields
-
 Published in: Applied Quantitative Finance
 
 Description: Displays averaged yields for different times to maturities and different risk levels.
