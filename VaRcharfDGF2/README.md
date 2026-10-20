@@ -29,6 +29,6 @@ Input:
 - lambda: the diagonal of the quadratic term
 
 Output: 
--r: the (complex) value of the Fourier inversion at t
+- r: the (complex) value of the Fourier inversion at t
 
 ```
