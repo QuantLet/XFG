@@ -21,7 +21,7 @@ Submitted: Wed, June 05 2013 by Awdesch Melzer
 
 Usage: XFGqDGtest(n,N,dt)
 
-Input: n- number of samples to use in the plot
+Input: n- number of samples to use in the plot N- modulus of the FFT to use in the approximation, should be a power of 2 dt- the size of the grid in the approximation of the Fourier inversion integral
 
 Output: - plots the 1%-quantile from the two one-parametric sub-families of the class of quadratic forms of Gaussian vectors, as defined by the functions XFGdg11par and XFGdg12par
 
