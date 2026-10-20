@@ -27,7 +27,7 @@ Input:
 - delta: the linear term
 - lambda: the diagonal of the quadratic terms
 - N: scalar, modulus of the FFT, should have a power of 2
-- K: 'scalar, number of characteristic function evaluations; K<=N
+- K: 'scalar, number of characteristic function evaluations; K<=N'
 - dt: scalar, grid-length in t to use for the approximation
 
 Output: 
@@ -35,7 +35,7 @@ Output:
 - x: the grid (vector) in x
 - y: the values of the CDF on the grid x
 
-Example: Please mind the necessary subroutines.
+Example: Please mind the necessary subroutines. VaRcdfDGtest = function(par,N,dt){ l = VaRcdfDG(par,N,N,dt) z = cbind(l$x,l$y) plot(z,type="l",col="blue3",lwd=2,xlab="X",ylab="Y") title("CDF of a chi-squared approximation (1 df)") } theta = 0 delta = c(0) lambda = c(1.4142) par = list(theta=theta,delta=delta,lambda=lambda) VaRcdfDGtest(par,1024,0.2)
 
 Result: Plots the CDF of a distribution, which is close to the chi^2 distribution with one degree of freedom.
 
