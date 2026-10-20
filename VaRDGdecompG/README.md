@@ -29,9 +29,9 @@ Input:
 
 Output: 
 - r: a list containing the additional components delta and lambda
-- delta: '(m x 1) new first derivatives
-- lambda: '(m x m) diagonal of the new second derivatives
+- delta: '(m x 1) new first derivatives'
+- lambda: '(m x m) diagonal of the new second derivatives'
 
-Example: 
+Example: Delta = c(1,2,3) Gamma = matrix(1,3,3) + diag(rep(9,3)) B = diag(rep(1,3)) l = list() l$Delta = Delta l$Gamma = Gamma l$B = B VaRDGdecompG(l)
 
 ```
