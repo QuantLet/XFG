@@ -21,17 +21,12 @@ Submitted: Sun, June 02 2013 by Awdesch Melzer
 
 Usage: r = VaRcumulantsDG(n,l)
 
-Input: -n: scalar, highest order of cumulants to be computed
--l: a list defining the distribution contains at least the following components:
-- theta: the constant term
-- Delta: the linear term (the first derivative)
-- Gamma: the quadratic term (the Hessian matrix)
-- Sigma: the covariance matrix
+Input: -n: scalar, highest order of cumulants to be computed -l: a list defining the distribution contains at least the following components: - theta: the constant term - Delta: the linear term (the first derivative) - Gamma: the quadratic term (the Hessian matrix) - Sigma: the covariance matrix
 
 Output: - rn : (rn x 1) vector of the first n cumulants
 
-Example: theta = 0
+Example: theta = 0 Delta = c(1) Gamma = diag(rep(1,1)) Sigma = diag(rep(1,1)) par = list() par$theta = theta par$Delta = Delta par$Gamma = Gamma par$Sigma = Sigma VaRcumulantsDG(4,par)
 
-Result: Contents of r
+Result: Contents of r [1,] 0.5 [2,] 1.5 [3,] 4 [4,] 15 '
 
 ```
