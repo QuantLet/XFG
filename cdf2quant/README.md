@@ -30,8 +30,8 @@ Input:
 Output: 
 - q: scalar, the approximated quantile
 
-Example: Please mind the necessary subroutines.
+Example: Please mind the necessary subroutines. theta = 0 delta = c(1) lambda = c(0) par = list(theta=theta,delta=delta,lambda=lambda) r = VaRcdfDG(par,512,512,0.1) cdf2quant(0.95,r) qnorm(0.95)
 
-Result: Contents of q
+Result: Contents of q [1] 1.647865 Contents of qnorm [1] 1.644854'
 
 ```
