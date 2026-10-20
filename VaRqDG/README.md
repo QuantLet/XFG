@@ -23,12 +23,12 @@ Usage: q = VaRqDG(a,par,N,K,dt)
 
 Input: a- scalar, representing the probability level
 
-par- a list defining the distribution# contains at least the components: 
+par- a list defining the distribution# contains at least the components: theta - the constant term delta - the linear term lambda - the diagonal of the quadratic term N- scalar, modulus of the FFT used in the inversion, should have a power of 2 K- scalar, number of characteristic function evaluations to use, K <= N dt- scalar, grid-size in t to use for the approximation of the inversion integral'
 
 Output: q- scalar, the alpha-quantile
 
-Example: Please mind all necessary subroutines.
+Example: Please mind all necessary subroutines. theta = 0 delta = c(0) lambda = c(1.4142) par = list(theta=theta,delta=delta,lambda=lambda) VaRqDG(a=0.95,par=par,N=512,K=512,dt=0.1) qnorm(0.95)
 
-Result: Approximates a standard normal quantile and compares it with the built-in function:
+Result: Approximates a standard normal quantile and compares it with the built-in function: Contents of q [1] 2.383468 Contents of qnorm [1] 1.644854
 
 ```
