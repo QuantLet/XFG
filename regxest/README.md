@@ -22,6 +22,6 @@ Submitted: Fri, July 27 2012
 Usage: mh = regxest(x {,h {,K} {,v} })
 
 Output: 
-- mh: '(n x 2) or (m x 2) matrix, the first column represents the sorted first column of x or the sorted v and the second column contains the regression estimate on the values of the first column.
+- mh: '(n x 2) or (m x 2) matrix, the first column represents the sorted first column of x or the sorted v and the second column contains the regression estimate on the values of the first column.'
 
 ```
