@@ -20,13 +20,11 @@ Author: Awdesch Melzer
 Submitted: Tue, June 04 2013 by Awdesch Melzer
 
 Input: 
-- t: 'scalar, complex number indicating the point at which the characteristic function should be calculated. l: list, containing l$mu (the expectation) and l$sigma (the standard deviation) of the Standard Normal Distribution.
+- t: 'scalar, complex number indicating the point at which the characteristic function should be calculated. l: list, containing l$mu (the expectation) and l$sigma (the standard deviation) of the Standard Normal Distribution.'
 
 Output: 
-- r: scalar, complex number representing the value of the characteristic function at t
+- r: scalar, complex number representing the value of the characteristic function at t'
 
-Example: Please mind the necessary subroutines. mu = 0 sigma = 1 l = list(mu=mu,sigma=sigma) t = compl(1,1) r= StandardNormalCharf(t,l).
-
-Result: Contents of r$re [1,] 0.5403. Contents of r$im [1,] -0.84147.
+Example: Please mind the necessary subroutines. mu = 0 sigma = 1 l = list(mu=mu,sigma=sigma) t = compl(1,1) r= StandardNormalCharf(t,l). Result: Contents of r$re [1,] 0.5403. Contents of r$im [1,] -0.84147.
 
 ```
