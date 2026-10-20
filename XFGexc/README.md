@@ -5,8 +5,6 @@
 </div>
 
 ```
-﻿Name of QuantLet: XFGexc
-
 Published in: Applied Quantitative Finance
 
 Description: Counts 99% Value-at-Risk exceedences over a profit and loss function for basic simulation data.
