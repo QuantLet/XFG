@@ -31,8 +31,8 @@ Input:
 Output: 
 - c: scalar, the n-th cumulant
 
-Example: theta = 0
+Example: theta = 0 delta = c(1) lambda = c(1) par = list() par$delta = delta par$lambda = lambda par$theta = theta VaRcumulantDG(3,par)
 
-Result: Contents of c
+Result: Contents of c [1,] 4'
 
 ```
