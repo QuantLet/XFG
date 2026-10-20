@@ -22,11 +22,11 @@ Submitted: Sun, June 02 2013 by Awdesch Melzer
 Usage: r = VaRcharfDG(t,par)
 
 Input: 
--t: the complex argument to the cgf
--par: a list defining the distribution# contains the components theta, delta, lambda
--theta: the constant term
--delta: the linear term
--lambda: the diagonal of the quadratic term
+- t: the complex argument to the cgf
+- par: a list defining the distribution# contains the components theta, delta, lambda
+- theta: the constant term
+- delta: the linear term
+- lambda: the diagonal of the quadratic term
 
 Output: 
 - r: the value of the cgf at t
